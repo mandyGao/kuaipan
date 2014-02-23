@@ -2,5 +2,8 @@
 
     <string name="app_name">金山快盘</string>
     <string name="my_cloud">我的快盘</string>
+    
+    <string name="default_nickname">zhulantian</string>
+    <string name="default_description">zhulantian@gmail.com</string>
 
 </resources>
