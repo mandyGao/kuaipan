@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.sky.kuaipan.slidingmenu.view.MenuAccountView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/small_margin"
+    android:paddingLeft="@dimen/small_margin"
+    android:paddingRight="@dimen/small_margin"
+    android:paddingTop="@dimen/xsmall_margin" >
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/menu_avatar_width"
+        android:layout_height="@dimen/menu_avatar_height"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_defalut_avatar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/small_margin"
+        android:layout_toRightOf="@id/avatar"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/text_title_small" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/text_color_gray"
+            android:textSize="@dimen/text_desc_small" />
+    </LinearLayout>
+
+</org.sky.kuaipan.slidingmenu.view.MenuAccountView>

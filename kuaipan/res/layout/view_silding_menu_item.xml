@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.sky.kuaipan.slidingmenu.view.SlidingMenuItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/normal_margin" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/icon"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/text_title_normal" />
+
+</org.sky.kuaipan.slidingmenu.view.SlidingMenuItemView>

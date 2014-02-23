@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="lighter_gray">#ddd</color>
+    <color name="darker_gray">#aaa</color>
+    
+    <color name="text_color_black">#FF333333</color>
+    <color name="text_color_gray">#FF949494</color>
+    
+    <color name="line_divider">#ccc</color>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.sky.kuaipan.slidingmenu.view.SlidingMenuView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/view_menu_account" />
+
+    <View
+        android:id="@+id/header_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/account"
+        android:background="@color/line_divider" />
+
+    <View
+        android:id="@+id/storage"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white" />
+
+    <ListView
+        android:id="@+id/menu_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/storage"
+        android:layout_below="@id/header_divider"
+        android:divider="@color/line_divider"
+        android:dividerHeight="1dp" />
+
+</org.sky.kuaipan.slidingmenu.view.SlidingMenuView>
