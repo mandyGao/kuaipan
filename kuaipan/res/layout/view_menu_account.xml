@@ -12,7 +12,7 @@
         android:layout_width="@dimen/menu_avatar_width"
         android:layout_height="@dimen/menu_avatar_height"
         android:layout_alignParentLeft="true"
-        android:src="@drawable/ic_test_avatar" />
+        android:scaleType="fitXY" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -28,8 +28,7 @@
             android:layout_height="wrap_content"
             android:singleLine="true"
             android:textColor="@color/text_color_black"
-            android:textSize="@dimen/text_title_small"
-            android:text="@string/default_nickname" />
+            android:textSize="@dimen/text_title_small" />
 
         <TextView
             android:id="@+id/description"
@@ -37,8 +36,7 @@
             android:layout_height="wrap_content"
             android:singleLine="true"
             android:textColor="@color/text_color_gray"
-            android:textSize="@dimen/text_desc_small"
-            android:text="@string/default_description" />
+            android:textSize="@dimen/text_desc_small" />
     </LinearLayout>
 
 </org.sky.kuaipan.slidingmenu.view.MenuAccountView>

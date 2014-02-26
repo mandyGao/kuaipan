@@ -13,6 +13,7 @@ import android.widget.RelativeLayout;
 
 public class SlidingMenuView extends RelativeLayout implements IView {
 
+  public View loginView;
   public MenuAccountView accountView;
   public ListView menuList;
 
@@ -30,6 +31,7 @@ public class SlidingMenuView extends RelativeLayout implements IView {
 
   @Override
   protected void onFinishInflate() {
+    loginView = findViewById(R.id.login);
     accountView = (MenuAccountView) findViewById(R.id.account);
     menuList = (ListView) findViewById(R.id.menu_list);
   }

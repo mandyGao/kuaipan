@@ -1,5 +1,7 @@
 package org.sky.kuaipan;
 
+import org.sky.kuaipan.slidingmenu.ModelFactory;
+import org.sky.kuaipan.slidingmenu.controller.SlidingMenuController;
 import org.sky.kuaipan.slidingmenu.view.SlidingMenuView;
 
 import android.os.Bundle;
@@ -8,7 +10,7 @@ import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivity;
 
 public class FileBrowserActivity extends SlidingActivity {
-  
+
   private SlidingMenuView menuView;
 
   @Override
@@ -31,6 +33,12 @@ public class FileBrowserActivity extends SlidingActivity {
     setSlidingActionBarEnabled(false);
     // the back action
     getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+    bindSlidingMenu();
+  }
+
+  private void bindSlidingMenu() {
+    new SlidingMenuController().bind(menuView, ModelFactory.convertSlidingMenuModel());
   }
 
 }

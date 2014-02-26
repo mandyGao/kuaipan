@@ -9,7 +9,7 @@ public class SlidingMenuItemController
 
   @Override
   public void bind(SlidingMenuItemView view, SlidingMenuItemModel model) {
-    view.iconView.setImageDrawable(model.icon);
-    view.nameView.setText(model.name);
+    view.iconView.setImageDrawable(model.getIcon());
+    view.nameView.setText(model.getName());
   }
 }

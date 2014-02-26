@@ -2,12 +2,12 @@ package org.sky.kuaipan.slidingmenu.model;
 
 import org.sky.kuaipan.mvc.IModel;
 
-public class MenuAccountModel implements IModel {
+public interface MenuAccountModel extends IModel {
 
-  public String avatar;
+  String getAvatar();
 
-  public String nickname;
+  String getNickname();
 
-  public String description;
+  String getDescription();
 
 }

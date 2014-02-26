@@ -3,19 +3,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <include
-        android:id="@+id/account"
+    <FrameLayout
+        android:id="@+id/account_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        layout="@layout/view_menu_account" />
+        android:layout_alignParentTop="true" >
+
+        <include
+            android:id="@+id/account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/view_menu_account" />
+
+        <include
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/view_menu_login"
+            android:visibility="gone" />
+    </FrameLayout>
 
     <View
         android:id="@+id/header_divider"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_below="@id/account"
+        android:layout_below="@id/account_container"
         android:background="@color/line_divider" />
 
     <View
