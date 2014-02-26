@@ -1,4 +1,4 @@
-package org.sdk.utils;
+package org.sky.base.utils;
 
 import android.content.Context;
 import android.view.LayoutInflater;

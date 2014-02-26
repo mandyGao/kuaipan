@@ -1,0 +1,128 @@
+<resources>
+    <string name="KSCSDK_UNKNOW_ERR_RUNTIME">未知程序运行错误，原因不详。</string>
+    <string name="KSCSDK_UNKNOW_ERR_DATA">未知的数据或数据解析错误，当前网络环境可能无法正常连接服务器。</string>
+    <string name="KSCSDK_UNKNOW_ERR_NETWORK">未知网络错误，当前网络环境可能无法正常连接服务器。</string>
+    <string name="KSCSDK_UNKNOW_ERR_SERVER">服务器错误信息无法解析，请尝试更新程序来解决问题。</string>
+    <string name="KSCSDK_UNKNOW_ERR_SERV_MSG">服务器错误信息无法解析，请尝试更新程序来解决问题。</string>
+    <string name="KSCSDK_UNKNOW_ERR_LOCAL_IO">未知的本地读写错误，原因不详。</string>
+    <string name="KSCSDK_UNKNOW_ERR">未知错误，原因不详。</string>
+
+    <string name="KSCSDK_MISS_USER_TOKEN">用户尚未登陆，请重新登录并联系软件作者来修复问题。</string>
+    <string name="KSCSDK_NULL_PARAM">您遇到了一个程序BUG：必要参数缺失。请联系软件作者来修复问题。</string>
+    <string name="KSCSDK_INVALID_PARAM">您遇到了一个程序BUG：输入参数不合法。请联系软件作者来修复问题。</string>
+    <string name="KSCSDK_LIMIT_NO_SPACE">没有足够的磁盘空间来完成你的请求，请清理存储空间后重试。</string>
+    <string name="KSCSDK_FRAMEWORK_UNSUPPORT">你所使用的系统可能已被篡改，无法正常运行本软件。</string>
+
+    <string name="KSCSDK_DATA_MISS_PARSER">您遇到了一个程序BUG：缺少对应的数据解析器。请联系软件作者来修复问题。</string>
+    <string name="KSCSDK_BAD_DATA_PARSER">您遇到了一个程序BUG：数据解析器不符合协议。请联系软件作者来修复问题。</string>
+
+    <string name="KSCSDK_DATA_IS_NOT_JSON">数据错误：无法识别为JSON数据。请尝试其他网络连接方式或稍后再试。</string>
+    <string name="KSCSDK_DATA_UNSCHEDULE">数据错误：超预期的数据。请尝试其他网络连接方式或稍后再试。</string>
+    <string name="KSCSDK_DATA_TYPE_INVALID">数据错误：数据类型不正确。请尝试其他网络连接方式或稍后再试。</string>
+    <string name="KSCSDK_DATA_IS_EMPTY">数据错误：数据为空或不完整。请稍后重试或尝试其他网络连接方式。</string>
+
+    <string name="KSCSDK_SERV_ERR_202">访问在服务端未被执行，此信息可能不是由正确的服务器提供，请稍后再试。</string>
+    <string name="KSCSDK_SERV_ERR_400">访问参数错误，此信息可能不是由正确的服务器提供，请将问题反馈给我们，帮助我们改进。</string>
+    <string name="KSCSDK_SERV_ERR_401">用户授权失败，此信息可能不是由正确的服务器提供，请稍后再试。</string>
+    <string name="KSCSDK_SERV_ERR_403">访问被拒绝，此信息可能不是由正确的服务器提供，请稍后再试。</string>
+    <string name="KSCSDK_SERV_ERR_404">访问资源不存在，此信息可能不是由正确的服务器提供，请稍后再试。</string>
+    <string name="KSCSDK_SERV_ERR_406">请求无法响应，此信息可能不是由正确的服务器提供，请稍后再试。</string>
+    <string name="KSCSDK_SERV_ERR_413">请求资源过大，此信息可能不是由正确的服务器提供，请稍后再试。</string>
+    <string name="KSCSDK_SERV_ERR_500">服务器错误，此信息可能不是由正确的服务器提供，请稍后再试。</string>
+    <string name="KSCSDK_SERV_ERR_504">接口超时，此信息可能不是由正确的服务器提供，请稍后再试。</string>
+    <string name="KSCSDK_SERV_ERR_507">云端空间不足，此信息可能不是由正确的服务器提供，请稍后再试。</string>
+    <string name="KSCSDK_SERV_ERR_5xx">服务暂时中断，此信息可能不是由正确的服务器提供，请稍后再试。</string>
+
+    <string name="KSCSDK_NET_SOCKET_EINVAL">网络参数不正常，请检查您的设备是否能正常访问网络。</string>
+    <string name="KSCSDK_NET_SOCKET_ENETUNREACH">无网络连接，请将您的设备连到互联网中后再试。</string>
+    <string name="KSCSDK_NET_SOCKET_ETIMEDOUT">连接服务器超时，请检查您的设备是否能正常访问网络，并在网络较稳定时重试。</string>
+    <string name="KSCSDK_NET_ECONNREFUSED">连接被重置，可能是网络不稳定导致的，请在网络较稳定时重试。</string>
+    <string name="KSCSDK_NET_SOCKET_EHOSTUNREACH">未能找到服务器，可能是您的网络管理员阻止了请求，请尝试更换网络后重试。</string>
+    <string name="KSCSDK_NET_SOCKET_TIMEOUT">数据传送超时，可能是网络不稳定导致的，请在网络较稳定时重试。</string>
+    <string name="KSCSDK_NET_ERROR_HTTP_PROTOCOL">协议错误，您所在的网络可能无法提供正常与服务器通信，请尝试更换网络后重试。</string>
+    <string name="KSCSDK_NET_ERROR_UNKNOW_HOST">未能找到服务器，可能是您的网络管理员阻止了请求，请尝试更换网络后重试。</string>
+
+    <string name="KSCSDK_MSG200_FILE_EXIST">同名文件已存在，无法执行您要求的操作。</string>
+    <string name="KSCSDK_MSG200_BAD_PARAMS">参数错误，请将问题反馈给我们，帮助我们改进。</string>
+    <string name="KSCSDK_MSG200_SERVER_EXCEPTION">数据服务器遇到未知错误，请将问题反馈给我们，帮助我们改进。</string>
+    <string name="KSCSDK_MSG200_INVALID_CUSTOMERID">无效的应用ID，请联系软件作者。</string>
+    <string name="KSCSDK_MSG200_INVALID_STOID">无效的存储标识，请将问题反馈给我们，帮助我们改进。</string>
+    <string name="KSCSDK_MSG200_STORAGE_REQUEST_ERROR">数据服务器存储访问异常，请将问题反馈给我们，帮助我们改进。</string>
+    <string name="KSCSDK_MSG200_STORAGE_REQUEST_FAILED">数据服务器存储访问失败，请将问题反馈给我们，帮助我们改进。</string>
+	<string name="KSCSDK_MSG200_COMMIT_FAIL">数据上传提交失败，您可以尝试隔一段时间后再试。</string>
+    
+    <string name="KSCSDK_MSG202_BAD_ACCOUNT_FORMAT">用户名格式不正确，请使用Email或手机号注册和登陆。</string>
+    <string name="KSCSDK_MSG202_ACCOUNT_CONFLICT">该E-mail地址已注册，可直接登录。</string>
+    <string name="KSCSDK_MSG202_LOGIN_FAIL">用户名或密码错误，请重新输入。</string>
+    <string name="KSCSDK_MSG202_BAD_OPENID">不能用此OpenID注册。</string><!-- unsure -->
+    <string name="KSCSDK_MSG202_WRONG_CODE">验证码错误或已失效。</string>
+    <string name="KSCSDK_MSG202_CANNOT_MKROOT">不能创建用户目录，需要重新登陆并获得用户授权。</string>
+
+    <string name="KSCSDK_MSG202_FILE_EXIST">存在同名的文件或文件夹，无法执行您要求的操作。</string>
+    <string name="KSCSDK_MSG202_FILE_NOT_EXIST">您要操作的文件不存在，请刷新后重试。</string>
+    <string name="KSCSDK_MSG202_FILE_TOO_MANY">本次操作所涉及的文件过多，为保护您的文件安全，请使用快盘官方PC客户端操作，或尝试每次只操作较少的文件，分多次完成。</string>
+    <string name="KSCSDK_MSG202_FILE_TOO_LARGE">上传文件过大，已超过单个最大文件限制。</string>
+    <string name="KSCSDK_MSG202_OVER_SPACE">用户空间已满，请前往快盘网站获取更多空间，或清理您的文件释放不必要的空间占用。</string>
+
+    <string name="KSCSDK_MSG202_COMMIT_FAIL">上传失败，请过一段时间后重试。</string>
+    <string name="KSCSDK_MSG202_FORBIDDEN">您的操作请求被拒绝。</string>
+    <string name="KSCSDK_MSG202_SERVER_DOWN">服务器繁忙，查询失败请过一段时间后再试。</string>
+
+    <string name="KSCSDK_MSG202_BAD_ACCESS_CODE">提取码含有不被允许使用的字符。</string>
+    <string name="KSCSDK_MSG202_LONG_ACCESS_CODE">提取码过长。</string>
+
+    <string name="KSCSDK_MSG202_CYCLE_SHARE">共享请求已被拒绝，操作文件的父目录或子目录已被共享给对方。</string>
+    <string name="KSCSDK_MSG202_ACCOUNT_BINDED">用户已经绑定过了，为保护您的文件安全，无法再次绑定。</string>
+
+    <string name="KSCSDK_MSG400_BAD_PARAMS">参数不正确。</string>
+    <string name="KSCSDK_MSG400_BAD_REQEST">请求的地址或参数不正确。</string>
+    <string name="KSCSDK_MSG400_BAD_API">您所使用的API已停用或不存在，请联系软件作者以解决问题。</string>
+    <string name="KSCSDK_MSG400_SERVER_ERR">服务器错误，请过一段时间后再试。</string>
+    <string name="KSCSDK_MSG400_ACCOUNT_SERVER_ERR">账号服务器出错，请过一段时间后再试。</string>
+    <string name="KSCSDK_MSG400_UNKNOW_ERR">服务器错误，原因不详。请将问题问题反馈给我们，帮助我们改进。</string>
+    <string name="KSCSDK_MSG400_REQUEST_FAIL">请求失败，原因不详。请将问题问题反馈给我们，帮助我们改进。</string>
+    <string name="KSCSDK_MSG400_MOBILE_BINDED">该手机号已注册，可直接登录。</string>
+    <string name="KSCSDK_MSG400_SEND_MSG_ERR">短信发送失败。此功能可能暂时无法使用。</string>
+    <string name="KSCSDK_MSG400_MANY_REQUEST">为防止垃圾短信，该号码以达到短信发送数量限制。</string>
+    <string name="KSCSDK_MSG400_FREQ_REQUEST">同一号码短期内不能连续发送短信，请1分钟后再试。</string>
+    <string name="KSCSDK_MSG400_INVALID_CODE">验证码输入错误或无效验证码</string>
+    <string name="KSCSDK_MSG400_INVALID_MOBILE">无效手机号，请检查您输入的手机号码是否完整。</string>
+    <string name="KSCSDK_MSG400_EMPTY_PASSWORD">密码不能为空。</string>
+    <string name="KSCSDK_MSG400_LONG_PASSWORD">密码长度不能超过32位。</string>
+    <string name="KSCSDK_MSG400_NOT_FOUND_USER">无此用户。</string>
+    <string name="KSCSDK_MSG400_CANNOT_SET_PWD">用户已设置密码，无法更新密码。</string>
+    <string name="KSCSDK_MSG400_NOT_REQUEST">尚未向此号码发送验证码，请核对手机号或重新发送验证码。</string>
+
+<string name="KSCSDK_MSG400_FILE_NOT_EXIST">上传的目标文件夹不存在或已被删除。</string>
+
+    <string name="KSCSDK_MSG401_BAD_SIGN">签名不正确，请将问题问题反馈给我们，帮助我们改进。</string>
+    <string name="KSCSDK_MSG401_REUSED_NONCE">重复的nonce，您可以立即重试。如果问题反复出现，请将问题问题反馈给我们，帮助我们改进。</string>
+    <string name="KSCSDK_MSG401_BAD_CONSUMER">无效的应用ID，请联系软件作者。</string>
+    <string name="KSCSDK_MSG401_REQUEST_EXPIRED">请求过期，您的系统时间可能与实际时间相差较大，无法完成大多数操作。</string>
+    <string name="KSCSDK_MSG401_AUTHMODE_UNSUPPORT">当前应用无权使用此种授权方式。</string>
+    <string name="KSCSDK_MSG401_AUTH_EXPIRED">用户授权已过期，请重新登陆并获得用户授权。</string>
+    <string name="KSCSDK_MSG401_APICALL_LIMIT">今天使用当前应用的用户过多，超出软件作者的预期，请明日再试。</string>
+    <string name="KSCSDK_MSG401_NOAPI_PERMISSION">当前应用无权使用此API，请将问题问题反馈给我们，我们会及时修正此问题。</string>
+    <string name="KSCSDK_MSG401_BAD_VERIFER">效验码验证错误。</string>
+    <string name="KSCSDK_MSG401_AUTH_FAILED">用户验证失败，请尝试重新登陆后再试。</string>
+
+    <string name="KSCSDK_MSG403_FILE_EXIST">存在同名的文件或文件夹，无法执行您要求的操作。</string>
+    <string name="KSCSDK_MSG403_FORBIDDEN">您的操作请求被拒绝。</string>
+
+    <string name="KSCSDK_MSG404_FILE_NOT_EXIST">您要操作的文件不存在，请刷新后重试。</string>
+    <string name="KSCSDK_MSG404_NO_SUCH_USER">用户不存在。</string>
+    <string name="KSCSDK_MSG406_FILE_TOO_MANY">本次操作所涉及的文件过多，为保护您的文件安全，请使用快盘官方PC客户端操作，或尝试每次只操作较少的文件，分多次完成。</string>
+    <string name="KSCSDK_MSG413_FILE_TOO_LARGE">上传文件过大，已超过单个最大文件限制。</string>
+    <string name="KSCSDK_MSG500_SERVER_ERR">服务器错误，请过一段时间后再试。</string>
+    <string name="KSCSDK_MSG500_SERVER_API_ERR">服务器内部错误。</string>
+    <string name="KSCSDK_MSG507_OVER_SPACE">用户空间已满，请前往快盘网站获取更多空间，或清理您的文件释放不必要的空间占用。</string>
+
+    <string name="KSCSDK_IOERR_MISS_FILE">目标文件未找到。</string>
+    <string name="KSCSDK_IOERR_FILE_CHANGED">文件发生变化。</string>
+    <string name="KSCSDK_IOERR_NO_PROMISSION">无法读取或写入目标文件。</string>
+    
+    <!-- BackupString -->
+    <string name="folder_camera">相册</string>
+    <string name="folder_screenshots">截屏</string>
+    <string name="folder_sound">录音</string>
+</resources>

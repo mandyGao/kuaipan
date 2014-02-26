@@ -1,6 +1,6 @@
 package org.sky.kuaipan.slidingmenu.view;
 
-import org.sdk.utils.ViewUtils;
+import org.sky.base.utils.ViewUtils;
 import org.sky.kuaipan.R;
 import org.sky.kuaipan.mvc.IView;
 

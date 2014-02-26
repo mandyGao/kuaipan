@@ -2,9 +2,9 @@ package org.sky.kuaipan.mvc;
 
 import java.util.List;
 
+import org.sky.base.adapter.DataAdapter;
 import org.sky.kuaipan.R;
 
-import adapter.DataAdapter;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;

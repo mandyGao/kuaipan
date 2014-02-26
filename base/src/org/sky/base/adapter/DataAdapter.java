@@ -1,4 +1,4 @@
-package adapter;
+package org.sky.base.adapter;
 
 import java.util.List;
 

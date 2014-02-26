@@ -8,7 +8,14 @@
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- phone permission -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- account permission optional -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
 
     <application
         android:name=".KuaipanApplication"
@@ -25,6 +32,40 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.kuaipan.android.openapi.AuthActivity"
+            android:exported="false"
+            android:launchMode="singleTop" >
+            <intent-filter>
+
+                <!-- Change this to be appkey- followed by your app key -->
+                <data android:scheme="appkey-xcInFxiv9tnMmS5a" />
+            </intent-filter>
+        </activity>
+
+        <!-- tencent QQ authorization activity -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <data android:scheme="tencent100537458" />
+            </intent-filter>
+        </activity>
+
+        <!-- xiaomi account authorization activity -->
+        <activity
+            android:name="com.xiaomi.channel.openauth.AuthorizeActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="com.xiaomi.openauth.action.AUTH" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
